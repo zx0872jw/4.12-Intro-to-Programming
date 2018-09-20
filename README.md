@@ -6,6 +6,16 @@ print('Car wash -- $7')
 print('Car wax -- $12')
 firstService = input('Select first service:')
 secondService = input('Select second service:')
+if firstService == 'Oil change':
+    print('Service 1: oil change, $35')
+elif firstService == 'Tire rotation':
+    print('Service 1 tire rotation, $19')
+elif firstService == 'Car wash':
+    print('Service 1: car wash, $7')
+elif firstService == 'Car wax':
+    print('Service 1: car wax, $12')
+elif serviceService == '-':
+    print('Service 1: No service')
 if secondService == 'Oil change':
     print('Service 2: oil change, $35')
 elif secondService == 'Tire rotation':
